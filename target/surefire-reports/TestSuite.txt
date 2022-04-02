@@ -1,0 +1,97 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 7, Errors: 0, Skipped: 1, Time elapsed: 124.941 sec <<< FAILURE! - in TestSuite
+doSearchPeopleTest(com.qa.linkedin.testcases.SearchDataDrivenTest)  Time elapsed: 23.332 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='search-results-container']/h2"}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-DI9R8GJ', ip: '192.168.86.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f417e1760da2c6757467d1d83c719d04, findElement {using=xpath, value=//div[@class='search-results-container']/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\jayaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60617/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f417e1760da2c6757467d1d83c719d04
+	at com.qa.linkedin.testcases.SearchDataDrivenTest.doSearchPeopleTest(SearchDataDrivenTest.java:53)
+
+doSearchPeopleTest(com.qa.linkedin.testcases.SearchDataDrivenTest)  Time elapsed: 5.82 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='search-results-container']/h2"}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-DI9R8GJ', ip: '192.168.86.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f417e1760da2c6757467d1d83c719d04, findElement {using=xpath, value=//div[@class='search-results-container']/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\jayaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60617/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f417e1760da2c6757467d1d83c719d04
+	at com.qa.linkedin.testcases.SearchDataDrivenTest.doSearchPeopleTest(SearchDataDrivenTest.java:53)
+
+doSearchPeopleTest(com.qa.linkedin.testcases.SearchDataDrivenTest)  Time elapsed: 6.905 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='search-results-container']/h2"}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-DI9R8GJ', ip: '192.168.86.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f417e1760da2c6757467d1d83c719d04, findElement {using=xpath, value=//div[@class='search-results-container']/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\jayaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60617/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f417e1760da2c6757467d1d83c719d04
+	at com.qa.linkedin.testcases.SearchDataDrivenTest.doSearchPeopleTest(SearchDataDrivenTest.java:53)
+
+doSearchPeopleTest(com.qa.linkedin.testcases.SearchDataDrivenTest)  Time elapsed: 7.41 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='search-results-container']/h2"}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-DI9R8GJ', ip: '192.168.86.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f417e1760da2c6757467d1d83c719d04, findElement {using=xpath, value=//div[@class='search-results-container']/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\jayaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60617/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f417e1760da2c6757467d1d83c719d04
+	at com.qa.linkedin.testcases.SearchDataDrivenTest.doSearchPeopleTest(SearchDataDrivenTest.java:53)
+
+doSearchPeopleTest(com.qa.linkedin.testcases.SearchDataDrivenTest)  Time elapsed: 9.936 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='search-results-container']/h2"}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-DI9R8GJ', ip: '192.168.86.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f417e1760da2c6757467d1d83c719d04, findElement {using=xpath, value=//div[@class='search-results-container']/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\jayaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60617/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f417e1760da2c6757467d1d83c719d04
+	at com.qa.linkedin.testcases.SearchDataDrivenTest.doSearchPeopleTest(SearchDataDrivenTest.java:53)
+
+doSearchPeopleTest(com.qa.linkedin.testcases.SearchDataDrivenTest)  Time elapsed: 7.384 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='search-results-container']/h2"}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-DI9R8GJ', ip: '192.168.86.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f417e1760da2c6757467d1d83c719d04, findElement {using=xpath, value=//div[@class='search-results-container']/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\jayaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60617/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f417e1760da2c6757467d1d83c719d04
+	at com.qa.linkedin.testcases.SearchDataDrivenTest.doSearchPeopleTest(SearchDataDrivenTest.java:53)
+
+logoutTest(com.qa.linkedin.testcases.SearchDataDrivenTest)  Time elapsed: 52.694 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //img[contains(@id,'ember26')]' (tried for 45 second(s) with 500 milliseconds interval)
+	at com.qa.linkedin.testcases.SearchDataDrivenTest.logoutTest(SearchDataDrivenTest.java:80)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@id,'ember26')]"}
+  (Session info: chrome=99.0.4844.84)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-DI9R8GJ', ip: '192.168.86.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f417e1760da2c6757467d1d83c719d04, findElement {using=xpath, value=//img[contains(@id,'ember26')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\jayaj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60617/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f417e1760da2c6757467d1d83c719d04
+	at com.qa.linkedin.testcases.SearchDataDrivenTest.logoutTest(SearchDataDrivenTest.java:80)
+
