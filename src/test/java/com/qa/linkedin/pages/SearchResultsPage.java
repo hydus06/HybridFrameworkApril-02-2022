@@ -24,7 +24,7 @@ public class SearchResultsPage extends BasePageWeb {
 	@FindBy(xpath = "//svg[contains(@class,'global-nav__icon ')]")
 	private WebElement homeTab;
 
-	String SearchResultsPageTitle = "Feed | LinkedIn";  //(14) "jaya" | Search | LinkedIn   (14) "jaya" | Search | LinkedIn
+	String SearchResultsPageTitle = "Search | LinkedIn";  //(14) "jaya" | Search | LinkedIn   (14) "jaya" | Search | LinkedIn
 
 	public void validateSearchResultsPageTitle() {
 		log.debug("Wait for search results page title");
@@ -48,7 +48,7 @@ public class SearchResultsPage extends BasePageWeb {
 		String txt = SearchResultsText.getText();
 		
 		log.debug("Search results text is: " + txt);
-		// txt="About 640,000 results"
+		//txt="About 640,000 results"
 		String[] str = txt.split(" ");
 		// str[]=["About","640,000","results"]
 		

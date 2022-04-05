@@ -20,17 +20,16 @@ public class LinkedinLoggedinPage extends BasePageWeb{
 	@FindBy(xpath = "//div[contains(@class,'actor-meta break-words')]")
 	private WebElement profileRailCard;
 	
-	@FindBy(xpath = "//img[contains(@id,'ember26')]")
+	@FindBy(xpath = "//img[@id='ember28']")
 	private WebElement profileImageIcon;
 	
-	@FindBy(xpath = "//a[@class='global-nav__secondary-link mv1'][contains(.,'Sign Out')]")
+	@FindBy(xpath = "//a[@href='/m/logout/']")
 	private WebElement signOutLink;
 	
 	@FindBy(xpath = "//input[contains(@class,'search-global-typeahead__input always-show-placeholder')]")
 	private WebElement searchEditbox;
 	
 	String loggedInPageTitle ="Feed | LinkedIn";
-	
 	
 	public void verifyProfileRailCard() {
 		log.debug("wait for the ProfileRailCard");
